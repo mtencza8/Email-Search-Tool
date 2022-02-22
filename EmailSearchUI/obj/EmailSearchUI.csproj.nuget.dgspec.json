@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\EmailSearchUI\\EmailSearchUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\EmailSearchUI\\EmailSearchUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\EmailSearchUI\\EmailSearchUI.csproj",
+        "projectName": "EmailSearchUI",
+        "projectPath": "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\EmailSearchUI\\EmailSearchUI.csproj",
+        "packagesPath": "C:\\Users\\mtencza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\EmailSearchUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtencza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\ESLibrary\\ESLibrary.csproj": {
+                "projectPath": "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\ESLibrary\\ESLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\ESLibrary\\ESLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\ESLibrary\\ESLibrary.csproj",
+        "projectName": "ESLibrary",
+        "projectPath": "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\ESLibrary\\ESLibrary.csproj",
+        "packagesPath": "C:\\Users\\mtencza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mtencza\\OneDrive - United Electronic Industries\\Programs\\EmailSearchTool\\ESLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtencza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.1.1, )"
+            },
+            "LinqToExcel": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
